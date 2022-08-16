@@ -1,0 +1,15 @@
+@import "../../variables.scss";
+
+.wrapper {
+  width: 820px;
+  height: 100%;
+  background-color: $background;
+  border-radius: 5px;
+  padding: 10px;
+}
+.itemsWrap {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 20px;
+}

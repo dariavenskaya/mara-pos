@@ -1,0 +1,40 @@
+@import "../../variables.scss";
+
+.wrapper {
+  width: 98%;
+  background-color: $background;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.quantity {
+  display: flex;
+  flex-direction: row;
+}
+.plus,
+.minus {
+  all: unset;
+  cursor: pointer;
+  border: 2px solid $green;
+  color: $green;
+  background-color: $white;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  transition: ease-in-out 0.3s;
+  font-size: 20px;
+  font-weight: 400;
+  &:hover {
+    color: $white;
+    background-color: $green;
+  }
+  &:disabled {
+    color: rgb(164, 164, 164);
+    background-color: $white;
+    border: 2px solid rgb(164, 164, 164);
+  }
+}

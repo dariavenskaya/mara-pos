@@ -1,0 +1,21 @@
+@import "./variables.scss";
+.wrapper {
+  width: 95%;
+  height: 100%;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.work-zone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+}
+.active {
+  color: $white;
+  background-color: $highlights;
+}

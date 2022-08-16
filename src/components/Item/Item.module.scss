@@ -1,0 +1,21 @@
+@import "../../variables.scss";
+
+.wrapper {
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+  background-color: $white;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 2px solid $green;
+  color: $green;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  transition: ease-in-out 0.3s;
+  &:hover {
+    cursor: pointer;
+    background-color: $green;
+    color: $white;
+  }
+}

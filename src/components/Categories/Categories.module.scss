@@ -1,0 +1,43 @@
+@import "../../variables.scss";
+.wrapper {
+  width: 95%;
+  max-width: 1250px;
+  height: 80px;
+  margin: 20px auto;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: $white;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin: 0 auto;
+  height: 100%;
+  align-items: center;
+  overflow: scroll;
+  gap: 10px;
+}
+li {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  width: 140px;
+  padding: 5px;
+  height: 40px;
+  background-color: $white;
+  color: $highlights;
+  font-size: 18px;
+  border: 2px solid $highlights;
+  border-radius: 5px;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: ease-in-out 0.3s;
+  &:hover {
+    cursor: pointer;
+    color: $white;
+    background-color: $highlights;
+  }
+}
