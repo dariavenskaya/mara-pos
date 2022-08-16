@@ -3,7 +3,7 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-  width: 310px;
+  width: 345px;
   height: 500px;
   background-color: $background;
   margin-left: 20px;
@@ -12,8 +12,17 @@
   align-items: center;
 
   .name {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 400;
+    width: 100px;
+    height: 30px;
+    border: 2px solid $black;
+    border-radius: 5px;
+    background-color: $white;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 30px;
+    cursor: default;
   }
 }
 .itemsWrap {
@@ -22,13 +31,15 @@
   background-color: $white;
   margin: 10px auto;
   padding: 5px;
+  border-radius: 5px;
+  overflow-y: scroll;
 }
 .actions {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 90%;
-  margin-top: 10px;
+  margin: 10px auto;
 }
 .clear,
 .pay {
@@ -37,7 +48,7 @@
   align-self: center;
   width: 120px;
   padding: 5px;
-  height: 40px;
+  height: 37px;
   font-size: 18px;
   border-radius: 5px;
   justify-content: space-evenly;

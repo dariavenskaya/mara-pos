@@ -3,6 +3,8 @@ import Categories from "../Categories";
 import Item from "../Item";
 import styles from "./Catalog.module.scss";
 
+// import { ItemsContext } from "../App";
+
 function Catalog() {
   const [category, setCategory] = React.useState(0);
   const [items, setItems] = React.useState([]);
@@ -18,7 +20,7 @@ function Catalog() {
         setItems(json);
         setIsLoading(false);
       });
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
   }, [category]);
 
   return (

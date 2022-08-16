@@ -25,14 +25,15 @@ function ItemInCounter(props) {
   const minus = () => {
     setCount(count - 1);
   };
+  const price = 3.5;
   return (
     <div className={styles.wrapper}>
-      <div className={styles.name}>capucina</div>
-      <div className={styles.name}>3.5</div>
+      <div className={styles.name}>capucinasdhjsdhdfh</div>
+      <div className={styles.price}>{price}</div>
       <div className={styles.actions}>
         <Counter plus={plus} minus={minus} count={count} />
       </div>
-      {/* <div className={styles.subtotal}>{count * props.price}</div> */}
+      <div className={styles.subtotal}>{count * price}</div>
     </div>
   );
 }
