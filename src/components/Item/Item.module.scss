@@ -18,4 +18,7 @@
     background-color: $green;
     color: $white;
   }
+  p {
+    user-select: none;
+  }
 }

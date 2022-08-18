@@ -3,10 +3,9 @@
 .wrapper {
   width: 95%;
   padding: 7px;
-  background-color: $background;
+  background-color: $white;
   height: 60px;
   margin: 0 auto;
-  border-radius: 5px;
   margin-top: 5px;
   display: flex;
   flex-direction: row;
@@ -67,5 +66,12 @@
     color: rgb(164, 164, 164);
     background-color: $white;
     border: 2px solid rgb(164, 164, 164);
+  }
+}
+.remove {
+  cursor: pointer;
+
+  svg {
+    fill: $accents;
   }
 }
