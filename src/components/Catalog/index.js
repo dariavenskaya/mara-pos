@@ -18,7 +18,6 @@ function Catalog() {
         setItems(json);
         setIsLoading(false);
       });
-    window.scrollTo(0, 0);
   }, [category]);
 
   return (

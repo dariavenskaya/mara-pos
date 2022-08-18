@@ -1,7 +1,15 @@
 import React from "react";
 import styles from "./Categories.module.scss";
 
-const categories = ["кофе", "кофе 10%", "еда", "товарка"];
+const categories = [
+  "кофе",
+  "кофе 10%",
+  "еда",
+  "товарка",
+  "настя",
+  "staff",
+  "зерно",
+];
 
 function Categories({ value, onClickCategory }) {
   return (
